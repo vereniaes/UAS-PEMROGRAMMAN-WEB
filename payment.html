@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GO FITNESS & GYM Payment</title>
+
+    <!-- icon web -->
+    <link rel="shortcut icon" href="img/go fitness logo.png" type="image/x-icon">
+
+    <!-- bootsrap CSS -->
+    <link rel="stylesheet" href="CSS/bootstrap.css">
+
+    <!-- fontawesome css -->
+    <link rel="stylesheet" href="CSS/all.min.css">
+
+    <!-- Owl Carousel CSS -->
+    <link rel="stylesheet" href="CSS/owl.carousel.min.css">
+    <link rel="stylesheet" href="CSS/owl.theme.default.min.css">
+
+    <!-- style manual -->
+    <link rel="stylesheet" href="CSS/style.css">
+
+    <!-- JQuery -->
+    <script src="JS/jquery.min.js"></script>
+</head>
+<body>
+       <!-- Navbar -->
+<nav class="navbar navbar-expand-lg bg-black sticky-top" data-bs-theme="dark" id="navbar">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">GO FITNESS & GYM</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html#about">about</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html#service">service</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html#clasess">clasess</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link"href="index.html#pricing">pricing</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">contact</a>
+                </li>
+            </ul>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-warning me-2" type="submit">Search</button>
+            </form>
+            <form class="d-flex" role="button"> <tr></tr>
+        
+                <ul class="navbar-nav mb-5 mb-lg-0">
+                    <li><a href="sign-in.html" class="btn btn-dark me-2">Login</a>
+                    </li>
+                    <li><a href="sign-up.html" class="btn btn-outline-dark">Sign up</a>
+                    </li>   
+                </ul>
+            </form>
+        </div>
+    </div>
+</nav>
+
+    <!-- end navbar -->
+
+    
+    <!-- payment -->
+    <div class="cont d-flex justify-content-center mt-5 mb-5">
+
+            
+
+        <div class="row g-3">
+
+          <div class="col-md-6">  
+            
+            <span>Payment Method</span>
+            <div class="card">
+
+              <div class="accordion" id="accordionExample">
+                
+                <div class="card">
+                  <div class="card-header p-0" id="headingTwo">
+                    <h2 class="mb-0">
+                      <button class="btn btn-light btn-block text-left collapsed p-3 rounded-0 border-bottom-custom" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <div class="d-flex align-items-center justify-content-between">
+
+                          <span>Paypal</span>
+                          <img src="https://i.imgur.com/7kQEsHU.png" width="30">
+                          
+                        </div>
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                    <div class="card-body">
+                      <input type="text" class="form-control" placeholder="Paypal email">
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card">
+                  <div class="card-header p-0">
+                    <h2 class="mb-0">
+                      <button class="btn btn-light btn-block text-left p-3 rounded-0" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        <div class="d-flex align-items-center justify-content-between">
+
+                          <span>Credit card</span>
+                          <div class="icons">
+                            <img src="https://i.imgur.com/2ISgYja.png" width="30">
+                            <img src="https://i.imgur.com/W1vtnOV.png" width="30">
+                            <img src="https://i.imgur.com/35tC99g.png" width="30">
+                            <img src="https://i.imgur.com/2ISgYja.png" width="30">
+                          </div>
+                          
+                        </div>
+                      </button>
+                    </h2>
+                  </div>
+
+                  <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                    <div class="card-body payment-card-body">
+                      
+                      <span class="font-weight-normal card-text">Card Number</span>
+                      <div class="input">
+                        <input type="text" class="form-control" placeholder="0000 0000 0000 0000">
+                        
+                      </div> 
+
+                      <div class="row mt-3 mb-3">
+
+                        <div class="col-md-6">
+
+                          <span class="font-weight-normal card-text">Expiry Date</span>
+                          <div class="input">
+
+                            <input type="text" class="form-control" placeholder="MM/YY">
+                            
+                          </div> 
+                          
+                        </div>
+
+
+                        <div class="col-md-6">
+
+                          <span class="font-weight-normal card-text">CVC/CVV</span>
+                          <div class="input">
+
+                            <input type="text" class="form-control" placeholder="000">
+                            
+                          </div> 
+                          
+                        </div>
+                        
+
+                      </div>
+
+                      <span class="text-muted certificate-text"><i class="fa fa-lock"></i> Your transaction is secured with ssl certificate</span>
+                     
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+              
+            </div>
+
+          </div>
+
+          <div class="col-md-6">
+              <span>Summary</span>
+
+              <div class="card">
+
+                <div class="d-flex justify-content-between p-3">
+
+                  <div class="d-flex flex-column">
+
+                    <span>Pro(Billed Monthly) </span>
+                    <a href="#" class="billing">Save 20% with annual billing</a>
+                    
+                  </div>
+
+                  <div class="mt-1">
+                    <sup class="super-price">$9.99</sup>
+                    <span class="super-month">/Month</span>
+                  </div>
+                  
+                </div>
+
+                <hr class="mt-0 line">
+
+                <div class="p-3">
+
+                  <div class="d-flex justify-content-between mb-2">
+
+                    <span>Refferal Bonouses</span>
+                    <span>-$2.00</span>
+                    
+                  </div>
+
+                  <div class="d-flex justify-content-between">
+
+                    <span>Vat <i class="fa fa-clock-o"></i></span>
+                    <span>-20%</span>
+                    
+                  </div>
+                  
+
+                </div>
+
+                <hr class="mt-0 line">
+
+
+                <div class="p-3 d-flex justify-content-between">
+
+                  <div class="d-flex flex-column">
+
+                    <span>Today you pay(US Dollars)</span>
+                    <small>After 30 days $9.59</small>
+                    
+                  </div>
+                  <span>$0</span>
+
+                  
+
+                </div>
+
+
+                <div class="form-check d-flex justify-content-center">
+                    <a href="Profile-member.html" class="btn btn-primary btn-block mb-4 me-3"> Pay now</a>
+                    <div class="text-center">
+                        <a href="sign-up.html">have a promo?</a>
+                      </div>
+                         
+                    </div>
+
+
+
+                
+              </div>
+          </div>
+          
+        </div>
+        
+
+      </div>
+    <!-- end payment -->
+    
+    <!-- bootstrap js -->
+    <script src="JS/bootstrap.bundle.js"></script>
+
+    <!-- fontawesome js -->
+    <script src="JS/all.min.js"></script>
+</body>
+</html>
